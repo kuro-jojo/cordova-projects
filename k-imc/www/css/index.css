@@ -1,0 +1,55 @@
+.title{
+    margin: 2rem !important;
+}
+.title h1{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #18c0b2;
+}
+.ui-field-contain{
+    margin: 1rem !important;
+}
+.content{
+    margin: 1rem 0 !important;
+}
+label{
+    font-size: 0.8rem;
+    font-weight: 900 !important;
+    color: #215a55;
+}
+.container{
+    margin: 4rem 1rem!important;
+    width: 90% !important;
+}
+body{
+    
+    overflow: hidden !important;
+}
+.error{
+    display: none;
+    color: red;
+    font-size: 0.8rem;
+    font-weight: 900;
+}
+.result{
+    text-align: center;
+    margin: 3rem 0 !important;
+    color: rgba(23, 156, 23, 0.863);
+    font-size: 0.8rem;
+    font-weight: 900;
+}
+button{
+    margin: 2rem 0 !important;
+    background-color: #fff !important;
+    color: black !important;
+    font-size: 0.8rem !important;
+    font-weight: 900 !important;
+    border: #18c0b2 solid 2px !important;
+    padding: 0.5rem 1rem !important;
+    border-radius: 0.5rem !important;
+}
+button:hover{
+    background-color: #18c0b2 !important;
+    color: white !important;
+}

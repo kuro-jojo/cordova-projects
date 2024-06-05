@@ -1,0 +1,44 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="css/index.css">
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/index.js"></script>
+    <title>BMI calculation</title>
+</head>
+
+<body>
+    <div data-role="header" data-theme="b">
+        <h1>BMI calculation</h1>
+    </div>
+    <div class="container">
+        <div class="title">
+            <h1>Give us your personal information</h1>
+        </div>
+        <div class="content">
+            <label for="height">You height (cm): </label>
+            <input type="number" id="height" step=".01" placeholder="175 cm">
+            <div id="heightInv" class="error">
+                <span>Please enter a valid height (> 30cm)</span>
+            </div>
+        </div>
+
+        <div class="">
+            <label for="weight">You weight (kg): </label>
+            <input type="number" id="weight" step=".01" placeholder="70 kg">
+            <div id="weightInv" class="error">
+                <span>Please enter a valid weight (> 2kg)</span>
+            </div>
+        </div>
+        <button onclick="computeBMI()">Compute BMI</button>
+        <div class="result" id="result">
+        </div>
+    </div>
+</body>
+
+</html>
