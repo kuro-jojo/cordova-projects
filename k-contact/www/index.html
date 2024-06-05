@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, width=device-width">
+
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="css/index.css">
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="cordova.js"></script>
+
+    <title>Contact App</title>
+</head>
+
+<body>
+    <div data-role="page" id="main">
+        <h1>My Contacts</h1>
+        <div data-role="main" class="ui-content">
+            <a href="#add" data-role="button" data-icon="arrow-r" data-iconpos="right" class="add">Add</a>
+            <ul id="contactList" data-role="listview" data-inset="true" data-filter="true"
+                data-filter-placeholder="Rechercher un contact..."></ul>
+        </div>
+        <div data-role="footer" data-position="fixed">
+            <h1>DIC3 ESP 2023/2024</h1>
+        </div>
+    </div>
+    <div data-role="page" id="details">
+        <div data-role="header">
+            <h1>Contact Detail</h1>
+        </div>
+        <div data-role="main" class="ui-content">
+            <img id="avatar" src="img/avatar.jpg" alt="profile picture"
+                style="width:80px;height:80px;margin:auto;display:block;">
+            <h1 id="contactNameDetail" style="text-align:center;"></h1>
+            <p id="phoneNumberDetail" style="text-align:center;"></p>
+        </div>
+        <div data-role="footer" data-position="fixed">
+            <h1>DIC3 ESP 2023/2024</h1>
+        </div>
+    </div>
+    <div data-role="page" id="add">
+        <div data-role="header">
+            <h1>Add a contact</h1>
+        </div>
+        <div data-role="main" class="ui-content">
+            <form id="addContactForm">
+                <label for="contactName">Name:</label>
+                <input type="text" name="contactName" id="contactName" required>
+                <label for="phoneNumber">Phone number:</label>
+                <input type="tel" name="phoneNumber" id="phoneNumber" required>
+                <button type="submit" data-role="button" class="add">Add</button>
+            </form>
+        </div>
+        <div data-role="footer" data-position="fixed">
+            <h1>DIC3 ESP 2023/2024</h1>
+        </div>
+    </div>
+
+</body>
+
+</html>

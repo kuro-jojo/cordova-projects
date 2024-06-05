@@ -1,0 +1,13 @@
+h1 {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #18c0b2;
+}
+.ctc {
+  margin: 1rem 0 !important;
+}
+.add {
+  background-color: #18c0b2 !important;
+  color: white !important;
+}
