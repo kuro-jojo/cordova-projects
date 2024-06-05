@@ -1,0 +1,33 @@
+.add {
+  background-color: #00a99d !important;
+  color: white !important;
+  margin: 2rem 0 !important;
+  margin-right: 0.5rem !important;
+}
+.reset {
+  background-color: #f44336 !important;
+  color: white !important;
+  margin: 2rem 0 !important;
+  margin-left: 0.5rem !important;
+}
+.btn {
+  display: flex;
+}
+.ongoing {
+  background-color: #8cc63f !important;
+  margin-bottom: 2rem !important;
+}
+
+.ui-content {
+  margin: 3rem 2rem;
+}
+
+.title {
+  text-align: center;
+  padding: 2rem;
+  margin: 0;
+  background-color: #00a99d;
+  color: #fff;
+  border-radius: 40px 0;
+  font-style: italic;
+}
